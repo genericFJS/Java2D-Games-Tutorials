@@ -24,7 +24,7 @@ public class Board extends JPanel implements Runnable {
         setBackground(Color.BLACK);
         setDoubleBuffered(true);
 
-        ImageIcon ii = new ImageIcon(this.getClass().getResource("star.png"));
+        ImageIcon ii = new ImageIcon(this.getClass().getResource("/res/star.png"));
         star = ii.getImage();
 
         x = y = 10;

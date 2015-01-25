@@ -2,7 +2,6 @@ package k1Sokoban;
 
 import javax.swing.JFrame;
 
-
 @SuppressWarnings("serial")
 public final class Sokoban extends JFrame {
 
